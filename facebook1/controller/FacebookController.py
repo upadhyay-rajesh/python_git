@@ -27,7 +27,7 @@ def viewProfile():
     ch=raw_input("enter your name");
     fu=FacebookUser(ch,"ssss","s","s");
     c=viewProfileDAO(fu);
-   # print getattr(c, 'email');
+    print getattr(c, 'name');
    
 def updateProfile():
     name=raw_input("enter your name to edit record");
